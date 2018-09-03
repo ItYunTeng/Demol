@@ -1,0 +1,80 @@
+@charset "utf-8";
+*{
+    margin:0;
+    font-family:"微软雅黑";
+    font-size: 15px;
+    color: white;
+}
+.footer{
+	background: #151212;
+}
+.clearfix{
+	height:385px;
+	background-color: #121115;
+}
+.clearfix>div{
+	float: left;
+	height: 350px;
+	margin-top: 28px;
+}
+.footer_main{
+	width: 85%; 
+	margin: 0 auto; 
+	
+}
+.clearfix>div:not(:last-child){
+	border-right:solid 1px #555555;
+}
+.clearfix>div>ul{
+	height: 100%;
+	width: 100%;
+}
+.clearfix>div>ul li{
+	list-style:none;
+	line-height: 15px;
+	margin-top: 20px;
+}
+.clearfix>div>ul>li>div.img2,.clearfix>div>ul>li>div.img1{
+	border: 1px solid #1B6D85;
+	height: 200px;
+	width: 40%;
+	float: left;
+	margin-right: 40px;
+}
+.Consultlink>ul>li:first-child{
+	margin-top: 80px;
+}
+.Consultlink>ul>li{
+	line-height: 50px;
+	margin-bottom: 50px;
+}
+.Consultlink>ul>li>span{
+	margin-right: 72px;
+}
+.friendlink>ul>li{
+	width: 41%;
+	padding:0;
+	float: left;
+	margin-right: 30px;
+}
+.friendlink>ul>li>ul{
+	width: 100%;
+	padding: 0;
+}
+.friendlink>ul>li>ul>li{
+	margin: 0;
+	line-height: 22px;
+	margin-bottom: 10px;
+}
+.friendlink>ul>li>ul>li a{
+	color: white;
+}
+.friendlink>ul>li>ul>li a:hover{
+	color: salmon;
+}
+.friendlink>ul>li>ul>li .more{
+	margin-left: 121px;
+}
+.center-block span{
+	margin-right: 28.55px;
+}
