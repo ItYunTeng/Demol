@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>bootstrap栅格化自适应</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				font-family: "微软雅黑";
+				font-size: 15px;
+				color: white;
+			}
+			.footer{
+				background: #121115;
+				width: 100%;
+				height: auto;
+				padding: 26px;
+			}
+			.col-sm-4.link,.col-sm-4.consultlink,.col-sm-4.friendlink{
+				height: auto;
+				background: #151212;
+			}
+			.col-sm-4.consultlink{
+				border-left: #999999 1px solid;
+				border-right: #999999 1px solid;
+			}
+			.col-sm-6.img1>img,.col-sm-6.img2>img{
+				width: 50%;
+				height: 50%;
+			}
+			.link ul,.consultlink ul{
+				margin-left: 20px;
+			}
+			.friendlink ul{
+				margin-left: 15px;
+			}
+			.consultlink ul{
+				margin-top: 47px;
+			}
+			.consultlink li>span{
+				margin-bottom: 10px;
+			}
+			.friendlink>ul>li>ul li{
+				height: 42px;
+				padding: 0;
+			}
+			.friendlink>ul>li>ul li a{
+				font-size: 13px;
+				color: white;
+			}
+			.friendlink>ul>li>ul li a:hover,center span a:hover{
+				color: #EC971F;
+			}
+			.friendlink>ul>li>ul li a:visited,center span a:visited{
+				color: #286090;
+			}
+			center span{
+				margin-left: 26.5px;
+			}
+			center span a{
+				font-size: 15px;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<!--定义容器-->
+		<div class="footer">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-4 link">
+						<ul>
+							<h4>&nbsp;联系我们</h4>
+							<li>
+								<p>【创客湾区大赛组委会秘书处】</p>
+								<p>&nbsp;&nbsp;通讯地址：北京市海淀区农大南路88号万霖大厦402</p>
+							</li>
+							<li class="text-center">
+								<div class="col-sm-6 img1">
+									<img src="img/wechat.jpg"/>
+								</div>
+								<div class="col-sm-6 img2">
+									<img src="img/wechat.jpg"/>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-4 consultlink">
+						<ul>
+							<li>
+								<p>赛事咨询：</p>
+								<span class="col-sm-5">袁先生：13718180352</span>
+								<span class="col-sm-5 col-sm-offset-2">柳小姐：15113350161</span>
+							</li>
+							<li>
+								<p>报名咨询：</p>
+								<span class="col-sm-5">袁先生：13718180352</span>
+								<span class="col-sm-5 col-sm-offset-2">柳小姐：15113350161</span>
+							</li>
+							<li>
+								<p>合作咨询：</p>
+								<span class="col-sm-5">袁先生：13718180352</span>
+								<span class="col-sm-5 col-sm-offset-2">柳小姐：15113350161</span>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-4 friendlink">
+						<ul>
+							<h4>友情链接</h4>
+							<li class="col-md-6">
+								<ul>
+									<li><a href="javaScript:void(0)">中山技术高产业技术开发区创新创业中心</a></li>
+									<li><a href="javaScript:void(0)">中山技术高产业技术开发区创新创业中心</a></li>
+									<li><a href="javaScript:void(0)">中山技术高产业技术开发区创新创业中心</a></li>
+									<li><a href="javaScript:void(0)">中山技术高产业技术开发区创新创业中心</a></li>
+									<li><a href="javaScript:void(0)">中山技术高产业技术开发区创新创业中心</a></li>
+								</ul>
+							</li>
+							<li class="col-md-6">
+								<ul>
+									<li><a href="javaScript:void(0)">中山技术高产业技术开发区创新创业中心</a></li>
+									<li><a href="javaScript:void(0)">中山技术高产业技术开发区创新创业中心</a></li>
+									<li><a href="javaScript:void(0)">中山技术高产业技术开发区创新创业中心</a></li>
+									<li><a href="javaScript:void(0)">中山技术高产业技术开发区创新创业中心</a></li>
+									<li>
+										<div class="col-md-offset-9">
+											<a href="javaScript:void(0)">more>></a>
+										</div>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12 col-xs-12 col-md-12" style="height: 45px; background-color: #5E5E5E;">
+					<center style="margin-top: 10px;" class="text-center">
+						<span>版权所有：版权所有</span>
+						<span>备案号：版权所有</span>
+						<span><a href="javaScript:void(0)">网站地图</a></span>
+					</center>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
